@@ -1,0 +1,52 @@
+// 1. Attach this file geometry.js to the index.html file <--- DONE
+
+// 2. Create a function that calculates the area of a rectangle. <-- DONE
+//    The function should accept the width and height as arguments
+//    and return the area of that rectangle.
+//    The area of a rectangle is the width * height
+
+const area = function (width, height){
+    return width * height;
+}
+
+// 3. Create a function that calculates the volume of a rectangular prism. <-- DONE
+//    The function should accept the width, height and length as arguments
+//    and return the volume of that rectangular prism.
+//    The volume of a rectangular prism is the width * height * length
+
+const volume = function (width, height, lenght){
+    return width * height * length;
+}
+
+// 4. Create a function that calculates the area of a circle. <-- DONE
+//    The function should accept the radius of the circle as an argument
+//    and return the area of that circle.
+//    The area of a circle is the value of π * radius^2
+
+const areaCircle = function (radius){
+    return 3.14 * radius;
+}
+
+
+// 5. Create a function that calculates the volume of a sphere. <-- DONE
+//    The function should accept the radius of the sphere as an argument
+//    and return the volume.
+//    The volume of a circle is: 4/3 *  π * radius^3
+
+const volumeCircle = function (radius){
+    return 4/3 * 3.14 * Math.pow(radius, 3);
+}
+
+
+// 6. Use console.log to test each function and output to the JavaScript console
+//    Here are the values to test and the expected results
+//    -- Area of rectangle that is 5 wide and 22 tall: 110
+//    -- Volume of a rectangular prism that is 4.5 x 12.5 x 17.4: 978.7499999999999
+//    -- Area of a circle that with a radius of 7.2: 162.8601631620949
+//    -- Volume of a spehere with a radius of 7.2: 1563.4575663561109
+console.log(
+    area(4, 22),
+    volume(4.5, 12.5, 17.4),
+    areaCircle(7.2),
+    volumeCircle(7.2)
+)
