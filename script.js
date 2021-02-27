@@ -24,7 +24,7 @@ const volume = function (width, height, lenght){
 //    The area of a circle is the value of π * radius^2
 
 const areaCircle = function (radius){
-    return 3.14 * radius;
+    return 3.14 * Math.pow(radius, 2);
 }
 
 
@@ -45,7 +45,7 @@ const volumeCircle = function (radius){
 //    -- Area of a circle that with a radius of 7.2: 162.8601631620949
 //    -- Volume of a spehere with a radius of 7.2: 1563.4575663561109
 console.log(
-    area(4, 22),
+    area(5, 22),
     volume(4.5, 12.5, 17.4),
     areaCircle(7.2),
     volumeCircle(7.2)
