@@ -14,7 +14,7 @@ function getRandomNumber(upper) {
 while (true){
     guess = prompt('Guess a number between 1 and 10');
     console.log(randomNumber, guess);
-    if(+guess == RandomNumber){
+    if(+guess == randomNumber){
         alert('You guess right!')
         break
     }
