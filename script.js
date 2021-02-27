@@ -13,7 +13,7 @@ function getRandomNumber(upper) {
 
 while (true){
     guess = prompt('Guess a number between 1 and 10');
-    if(+guess == getRandomNumber){
+    if(+guess == RandomNumber){
         alert('You guess right!')
         break
     }
